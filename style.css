@@ -1,0 +1,23 @@
+div.t-row1 button,
+div.t-row2 button,
+div.t-row3 button
+{
+    height: 100px;
+    width: 100px;
+    font-size: 4.5rem;
+}
+
+div[class^='t-row'] {
+    display: flex;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+}
+
+div.r-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
